@@ -2,7 +2,7 @@
 """
 Created on Wed Jun 10 22:13:20 2020
 
-@author: krupa
+@author: karth
 """
 
 
@@ -11,8 +11,8 @@ import time
 import pandas
 
 #variables
-source_file_path = "C:\\Users\\krupa\\Downloads\\salespro.csv"
-destination_file_path = "C:\\Users\\krupa\\res\\final.txt"
+source_file_path = "C:\\Users\\karth\\Downloads\\salesrecord.csv"
+destination_file_path = "C:\\Users\\karth\\Desktop\\final.txt"
 
 class HashTable:  
     def __init__(self):
@@ -102,7 +102,7 @@ def delete():
     deleteID=input('Enter the ID you want to delete\n')
     start1=time.time()
     a.drop(deleteID,axis=0,inplace=True)
-    a.to_csv('C:\\Users\\krupa\\Downloads\\salespro.csv')
+    a.to_csv('C:\\Users\\karth\\Downloads\\salesrecord.csv')
     print('Record deleted successfully \n')
     end1=time.time()
     print('Process completed in',end1-start1,'seconds \n')
