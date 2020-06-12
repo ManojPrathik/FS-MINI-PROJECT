@@ -102,7 +102,7 @@ def delete():
     deleteID=input('Enter the ID you want to delete\n')
     start1=time.time()
     a.drop(deleteID,axis=0,inplace=True)
-    a.to_csv('C:\\Users\\krupa\\Downloads\\salespro.csv')
+    a.to_csv('C:\\Users\\Manoj\\Downloads\\salespro.csv')
     print('Record deleted successfully \n')
     end1=time.time()
     print('Process completed in',end1-start1,'seconds \n')
