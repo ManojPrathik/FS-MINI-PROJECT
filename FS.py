@@ -2,7 +2,7 @@
 """
 Created on Wed Jun 10 22:13:20 2020
 
-@author: krupa
+@author: Manoj
 """
 
 
@@ -11,8 +11,8 @@ import time
 import pandas
 
 #variables
-source_file_path = "C:\\Users\\krupa\\Downloads\\salespro.csv"
-destination_file_path = "C:\\Users\\krupa\\res\\final.txt"
+source_file_path = "C:\\Users\\Manoj\\Downloads\\salespro.csv"
+destination_file_path = "C:\\Users\\Manoj\\final.txt"
 
 class HashTable:  
     def __init__(self):
