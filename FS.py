@@ -11,7 +11,7 @@ import time
 import pandas
 
 #variables
-source_file_path = "C:\\Users\\Manoj\\Downloads\\salespro.csv"
+source_file_path = "C:\\Users\\Manoj\\Downloads\\salesreport.csv"
 destination_file_path = "C:\\Users\\Manoj\\final.txt"
 
 class HashTable:  
@@ -102,7 +102,7 @@ def delete():
     deleteID=input('Enter the ID you want to delete\n')
     start1=time.time()
     a.drop(deleteID,axis=0,inplace=True)
-    a.to_csv('C:\\Users\\Manoj\\Downloads\\salespro.csv')
+    a.to_csv('C:\\Users\\Manoj\\Downloads\\salesrecord.csv')
     print('Record deleted successfully \n')
     end1=time.time()
     print('Process completed in',end1-start1,'seconds \n')
