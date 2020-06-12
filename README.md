@@ -8,7 +8,8 @@ HASHING is a data structure that is used to store a large number of data,which c
 - 2) Should uniformly distribute the keys (Each table position equally likely for each key)
 HashTable:An array that stores pointers to records corresponding to a given phone number. An entry in the hash table is NIL if no existing phone number has hash function value equal to the index for the entry.
 - CollisionHandling:Since a hash function gets us a small number for a big key, there is a possibility that two keys might result in the same value. The situation where a newly inserted key maps to an already occupied slot in the hash table is called collision and must be handled using some collision handling technique. There are many ways to handle collisions.In this project the collision handling technique used is:
-Chaining:The idea is to make each cell of the hash table point to a linked list of records that have the same hash function value. Chaining is simple, but requires additional memory outside the table.
+Chaining:The idea is to make each cell of the hash table point to a linked list of records that have the same hash function value. Chaining is simple, but requires additional memory outside the table. 
+
 In order to run this program,the basic requirements that needs to be met are:
 - 1)Python3 or higher version 
 - 2)Python IDE(recommended:Spyder)
