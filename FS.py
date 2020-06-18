@@ -12,7 +12,7 @@ import pandas
 
 #variables
 source_file_path = "C:\\Users\\karth\\Downloads\\salesrecord.csv"
-destination_file_path = "C:\\Users\\karth\\Desktop\\final.txt"
+destination_file_path = "C:\\Users\\karth\\Desktop\\result.txt"
 
 class HashTable:  
     def __init__(self):
